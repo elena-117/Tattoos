@@ -22,6 +22,7 @@ gulp
 
 * HTML5/CSS3
 * SCSS preprocessor
+* Bootstrap 4
 * Gulp
 * jQuery plugins: 
 * [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
