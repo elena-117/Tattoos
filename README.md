@@ -11,6 +11,11 @@ Use the package manager Yarn to install the required modules in the application.
 ```
 npm install -g yarn
 ```
+then
+
+```
+yarn install
+```
 
 After installing the necessary modules, to launch the application in your browser, write the command 'gulp':
 
