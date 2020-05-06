@@ -1,0 +1,91 @@
+.artists {
+   padding-top: 160px;
+   padding-bottom: 60px;
+
+   &__title {
+      margin-bottom: 28px;
+   }
+
+   &__items {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &-items__item {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+   }
+
+   &-items__item:first-child {
+      margin-left: 0;
+   }
+
+   &-items__block {
+      display: flex;
+      margin-top: 3px;
+      justify-content: space-between;
+   }
+
+   &-items__title {
+      align-self: flex-end;
+      margin: 0;
+   }
+
+   &-items__link {
+      color: $text-color-light;
+      display: block;
+      align-self: flex-end;
+      margin-bottom: 2px;
+   }
+}
+
+
+@media (max-width: 1100px) {
+   .artists-items__title {
+      font-size: 20px;
+   }
+
+}
+
+@media (max-width: 992px) {
+   .artists {
+      padding-top: 100px;
+
+      &__items {
+         flex-wrap: wrap;
+      }
+
+      &-items__item {
+         margin-left: 0;
+      }
+
+      &-items__item:nth-child(3),
+      &-items__item:nth-child(4) {
+         margin-top: 40px;
+      }
+
+      &-items__item:nth-child(1),
+      &-items__item:nth-child(3) {
+         margin-right: 28px;
+      }
+   }
+}
+
+@media (max-width: 768px) {
+   .artists {
+      padding-top: 90px;
+
+      &__title {
+         text-align: center;
+      }
+
+      &__items {
+         justify-content: center;
+      }
+
+      &-items__item {
+         margin-bottom: 46px;
+      }
+   }
+}

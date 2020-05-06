@@ -1,0 +1,72 @@
+.instagram-work {
+   padding-top: 80px;
+   text-align: center;
+
+   &__title {
+      margin-bottom: 24px;
+   }
+
+   &__show-more {
+      margin-top: 30px !important;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      color: $text-color-light;
+      text-align: center;
+   }
+}
+
+/* ---- grid ---- */
+
+.grid {
+   // background: #DDD;
+   margin: 0 auto;
+   /* centered */
+}
+
+/* clear fix */
+.grid:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+   float: left;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 10px;
+}
+
+.grid-item--height2 {
+   height: 400px;
+}
+
+.grid-item--width2 {
+   width: 400px;
+}
+
+.grid-item--height2 {
+   height: 400px;
+}
+
+.grid-item--width3 {
+   width: 182px;
+}
+
+@media (max-width: 768px) {
+   .grid-item {
+      width: 100px;
+      height: 100px;
+   }
+
+   .grid-item--height2 {
+      height: 200px;
+   }
+
+   .grid-item--width2 {
+      width: 200px;
+   }
+}

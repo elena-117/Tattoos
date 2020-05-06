@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tattoos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="https://kit.fontawesome.com/074d79e919.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__menu menu">
+        <nav class="menu__navbar navbar navbar-expand-lg">
+          <a class="menu__navbar-logo navbar-brand" href="#"><img src="img/header/logo-best-artist.png" alt="logo"></a>
+
+          <button class="menu__navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="menu__navbar-toggler-icon navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="menu__navbar-nav navbar-nav">
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">New! Tattoo supplies</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">Artists</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">About us</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">Services</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">360 tour</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">Featured work</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">Aftercare</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <a href="#" class="nav-link">FAQ</a>
+              </li>
+              <li class="menu__nav-item nav-item">
+                <span href="#" class="nav-link menu__nav-link--color-red">Contact
+                  <span class="menu__icons">
+                    <a href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M21.1406 0.75H2.85938C2.30045 0.751682 1.7649 0.974459 1.36968 1.36968C0.974459 1.7649 0.751682 2.30045 0.75 2.85938V21.1406C0.751682 21.6995 0.974459 22.2351 1.36968 22.6303C1.7649 23.0255 2.30045 23.2483 2.85938 23.25H12.7031V14.1094H10.242V10.5938H12.7031V8.83612C12.7601 6.86512 13.2701 5.11163 16.6121 4.96913H19.383V8.454H17.0404C16.8913 8.44508 16.742 8.46639 16.6014 8.51667C16.4608 8.56695 16.3318 8.64514 16.2222 8.74656C16.1125 8.84797 16.0246 8.97051 15.9635 9.1068C15.9025 9.24309 15.8697 9.39032 15.867 9.53962V10.5938H19.3826L18.7826 14.1094H15.867V23.25H21.1406C21.6995 23.2483 22.2351 23.0255 22.6303 22.6303C23.0255 22.2351 23.2483 21.6995 23.25 21.1406V2.85938C23.2483 2.30045 23.0255 1.7649 22.6303 1.36968C22.2351 0.974459 21.6995 0.751682 21.1406 0.75V0.75Z"
+                          stroke="#FF0E0E" stroke-miterlimit="10" />
+                      </svg>
+                    </a>
+
+                    <a href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.5458 0.75H7.45125C5.67639 0.750492 3.97418 1.45487 2.71793 2.70866C1.46169 3.96244 0.753972 5.66327 0.75 7.43813V16.5131C0.754071 18.2879 1.46183 19.9887 2.71806 21.2424C3.9743 22.4961 5.67646 23.2004 7.45125 23.2009H16.5458C18.3211 23.2012 20.0241 22.4972 21.281 21.2433C22.5379 19.9894 23.246 18.2881 23.25 16.5128V7.43775C23.2459 5.66244 22.5378 3.96125 21.2809 2.70746C20.024 1.45368 18.3211 0.749697 16.5458 0.75Z"
+                          stroke="#FF0E0E" stroke-miterlimit="10" />
+                        <path
+                          d="M12 6.16881C10.852 6.17103 9.73051 6.51346 8.77712 7.15284C7.82372 7.79222 7.08124 8.69984 6.64349 9.76104C6.20573 10.8222 6.09235 11.9894 6.31766 13.115C6.54297 14.2406 7.09687 15.2742 7.90937 16.0851C8.72187 16.896 9.75651 17.4479 10.8826 17.671C12.0086 17.8942 13.1755 17.7785 14.2359 17.3387C15.2962 16.8989 16.2024 16.1547 16.8399 15.2001C17.4774 14.2454 17.8177 13.1232 17.8177 11.9753C17.8142 10.4344 17.1998 8.95785 16.1092 7.86935C15.0186 6.78085 13.5408 6.1693 12 6.16881V6.16881ZM12 15.5251C11.2986 15.5235 10.6134 15.3141 10.031 14.9233C9.44861 14.5325 8.9951 13.9779 8.72777 13.3294C8.46045 12.681 8.39131 11.9679 8.5291 11.2802C8.66688 10.5925 9.0054 9.96107 9.50189 9.46568C9.99839 8.97029 10.6306 8.63317 11.3186 8.49691C12.0066 8.36065 12.7195 8.43137 13.3674 8.70013C14.0152 8.96889 14.5688 9.42363 14.9583 10.0069C15.3478 10.5902 15.5557 11.2758 15.5557 11.9772C15.5546 12.9192 15.1794 13.8221 14.5126 14.4875C13.8458 15.1528 12.9419 15.5261 12 15.5251ZM19.2236 6.21231C19.2242 6.48826 19.1429 6.75819 18.99 6.98793C18.8371 7.21767 18.6195 7.39689 18.3647 7.50291C18.11 7.60892 17.8295 7.63697 17.5587 7.5835C17.288 7.53002 17.0392 7.39744 16.8439 7.20252C16.6485 7.00759 16.5154 6.7591 16.4614 6.48849C16.4073 6.21788 16.4347 5.93731 16.5402 5.6823C16.6457 5.42729 16.8244 5.2093 17.0538 5.05593C17.2832 4.90255 17.553 4.82068 17.829 4.82068C18.0119 4.82043 18.1931 4.85624 18.3623 4.92605C18.5314 4.99586 18.6851 5.09831 18.8146 5.22755C18.9441 5.35678 19.0469 5.51027 19.1171 5.67924C19.1872 5.8482 19.2234 6.02934 19.2236 6.21231Z"
+                          stroke="#FF0E0E" stroke-miterlimit="10" />
+                      </svg>
+                    </a>
+                  </span>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header__hero header-hero">
+        <div class="header-hero__img">
+          <img src="img/header/hero-img.svg" alt="img">
+          <h1 class="header-hero__title">One step beyond tattooing</h1>
+        </div>
+      </div>
+
+      <a class="header__btn-contact flowing-scroll" href="javascript://0" onclick="slowScroll ('#contacts')">
+        <span>contact us</span> <span>+</span>
+      </a>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <main>
+    <section class="artists">
+      <div class="container">
+        <h3 class="artists__title title">Artists</h3>
+        <div class="artists__items artists-items">
+          <div class="artists-items__item">
+            <div>
+              <img src="img/artists/artists-img-1.jpg" alt="img">
+            </div>
+            <div class="artists-items__block">
+              <h4 class="artists-items__title">Svetlyo</h4>
+              <a class="artists-items__link" href="#">read more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.artists-items__item -->
+
+          <div class="artists-items__item">
+            <div>
+              <img src="img/artists/artists-img-2.jpg" alt="img">
+            </div>
+            <div class="artists-items__block">
+              <h4 class="artists-items__title">Renette</h4>
+              <a class="artists-items__link" href="#">read more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.artists-items__item -->
+
+          <div class="artists-items__item">
+            <div>
+              <img src="img/artists/artists-img-3.jpg" alt="img">
+            </div>
+            <div class="artists-items__block">
+              <h4 class="artists-items__title">Dave</h4>
+              <a class="artists-items__link" href="#">read more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.artists-items__item -->
+
+          <div class="artists-items__item">
+            <div>
+              <img src="img/artists/artists-img-4.jpg" alt="img">
+            </div>
+            <div class="artists-items__block">
+              <h4 class="artists-items__title">Kayla</h4>
+              <a class="artists-items__link" href="#">read more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.artists-items__item -->
+        </div>
+      </div>
+    </section>
+    <!-- /.artists -->
+
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__items">
+          <div class="advantages__item advantages-item">
+            <div class="advantages-item__img">
+              <img src="img/advantages/advantages-img-1.png" alt="img">
+            </div>
+            <div class="advantages-item__block item-block">
+              <h4 class="item-block__title">Award winning</h4>
+              <p class="item-block__text">Internationally awarded artists</p>
+              <a class="item-block__learn-more" href="#">learn more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.advantages__item -->
+          <div class="advantages__item advantages-item">
+            <div class="advantages-item__img">
+              <img src="img/advantages/advantages-img-2.png" alt="img">
+            </div>
+            <div class="advantages-item__block item-block">
+              <h4 class="item-block__title">Hygiene</h4>
+              <p class="item-block__text">Highest hygiene standard<br>
+                in the industry </p>
+              <a class="item-block__learn-more" href="#">learn more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.advantages__item -->
+          <div class="advantages__item advantages-item">
+            <div class="advantages-item__img">
+              <img src="img/advantages/advantages-img-3.png" alt="img">
+            </div>
+            <div class="advantages-item__block item-block">
+              <h4 class="item-block__title">Digital design</h4>
+              <p class="item-block__text">Custom Digital Designs created
+                just for you</p>
+              <a class="item-block__learn-more" href="#">learn more <i class="far fa-plus-square btn-plus"></i></a>
+            </div>
+          </div>
+          <!-- /.advantages__item -->
+        </div>
+      </div>
+    </section>
+    <!-- /.advantages -->
+
+    <section class="featured-work">
+      <div class="container">
+        <div class="featured-work__block-top">
+          <h3 class="featured-work__title title">Featured work</h3>
+          <a class="featured-work__read-more" href="#">read more <i class="far fa-plus-square btn-plus"></i></a>
+        </div>
+
+        <div class="featured-work__block">
+          <div class="featured-work__item featured-work-item">
+            <h4 class="featured-work-item__title">Work by our new artist Kayla!</h4>
+            <div class="featured-work-item__block">
+              <a class="image-link" href="img/featured-work/featured-work-img-1.jpg">
+                <img src="img/featured-work/featured-work-img-1.jpg" alt="img">
+              </a>
+
+              <a class="image-link" href="img/featured-work/featured-work-img-2.jpg">
+                <img src="img/featured-work//featured-work-img-2.jpg" alt="img">
+              </a>
+            </div>
+          </div>
+
+          <div class="featured-work__item">
+            <a class="image-link" href="img/featured-work/featured-work-img-3.jpg">
+              <img src="img/featured-work/featured-work-img-3.jpg" alt="img">
+            </a>
+
+            <a class="image-link" href="img/featured-work/featured-work-img-4.jpg">
+              <img src="img/featured-work//featured-work-img-4.jpg" alt="img">
+            </a>
+          </div>
+        </div>
+
+    </section>
+    <!-- /.featured-work -->
+
+    <section class="about">
+      <div class="container">
+        <div class="about__block">
+          <div class="about__item">
+            <h3 class="about__title title">About us</h3>
+            <p class="about__text">
+              We are a small family owned business that was established
+              in Sweden back in 2006. The company, founded by Svetlyo,
+              later on, expanded and opened its primary location in the heart of the tattoo industry - San Francisco,
+              California.
+            </p>
+            <p class="about__text">
+              Our shop is client-centered, and our mission is to make everyone feel great in their skin. From the first
+              day,
+              we opened our doors in 2010, we've strived for excellence in creating truly unique custom tattoos for you.
+            </p>
+          </div>
+
+          <div class="about__item">
+            <img src="img/about/about-img.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.about -->
+
+    <section class="instagram-work">
+      <div class="container">
+        <h3 class="instagram-work__title title">Instagram collective work</h3>
+
+        <div class="instagram-work__items grid">
+          <div class="instagram-work__item grid-item grid-item--width2 grid-item--height2">
+            <img src="img/instagram/instagram-img-1.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item grid-item--width3">
+            <img src="img/instagram/instagram-img-2.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-3.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-4.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item grid-item--width3">
+            <img src="img/instagram/instagram-img-5.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-6.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-7.jpg" alt="img">
+          </div>
+
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-9.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-10.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item grid-item--width3">
+            <img src="img/instagram/instagram-img-8.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item grid-item--width2 grid-item--height2">
+            <img src="img/instagram/instagram-img-14.jpg" alt="img">
+          </div>
+
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-12.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item">
+            <img src="img/instagram/instagram-img-13.jpg" alt="img">
+          </div>
+          <div class="instagram-work__item grid-item grid-item--width3">
+            <img src="img/instagram/instagram-img-11.jpg" alt="img">
+          </div>
+        </div>
+
+        <a class="instagram-work__show-more" href="#">show more <i class="far fa-plus-square btn-plus"></i></a>
+      </div>
+    </section>
+    <!-- /.instagram-work -->
+
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <form class="contacts__form form" action="#">
+          <h4 class="contacts__title">contact form</h4>
+          <div class="form__group">
+            <label for="email">e-mail *</label><br>
+            <input class="" type="text" name="email" id="email" placeholder="Enter your name">
+          </div>
+
+          <div class="form__group">
+            <label for="select">pick your artist</label><br>
+            <select class="" name="select" id="select" value="Svetlyo">
+              <option value="Svetlyo">Svetlyo</option>
+              <option value="Renette">Renette</option>
+              <option value="Dave">Dave</option>
+              <option value="Kayla">Kayla</option>
+            </select>
+          </div>
+
+          <div class="form__group">
+            <label for="textarea">message *</label><br>
+            <textarea class="" name="textarea" id="textarea" cols="30" rows="6"
+              placeholder="Tell us about your idea"></textarea>
+          </div>
+
+          <div class="form__group form-inputfile">
+            <div>
+              <input type="file" name="file" id="file" class="form__inputfile"
+                data-multiple-caption="{count} files selected" multiple style="width: 0.1px;" />
+              <label for="file">upload image
+                <svg width="7" height="16" viewBox="0 0 7 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.89215 6.0209V9.67246C4.89215 10.0356 4.76913 10.3839 4.55015 10.6407C4.33118 10.8975 4.03418 11.0418 3.7245 11.0418C3.41482 11.0418 3.11783 10.8975 2.89885 10.6407C2.67988 10.3839 2.55686 10.0356 2.55686 9.67246L2.55686 3.28223C2.55686 2.67694 2.76189 2.09645 3.12685 1.66845C3.49181 1.24045 3.9868 1 4.50293 1C4.75849 1 5.01155 1.05903 5.24766 1.17372C5.48377 1.28842 5.6983 1.45652 5.87901 1.66845C6.05972 1.88037 6.20307 2.13196 6.30087 2.40886C6.39867 2.68575 6.44901 2.98252 6.44901 3.28223L6.44901 11.4982C6.44901 12.3456 6.16196 13.1583 5.65102 13.7575C5.14007 14.3567 4.44709 14.6934 3.7245 14.6934C3.00192 14.6934 2.30893 14.3567 1.79799 13.7575C1.28705 13.1583 1 12.3456 1 11.4982L1 6.0209"
+                    stroke="#FF0E0E" stroke-width="0.8" stroke-miterlimit="10" />
+                </svg>
+              </label>
+            </div>
+
+            <div>
+              <input type="file" name="file" id="file" class="form__inputfile"
+                data-multiple-caption="{count} files selected" multiple style="width: 0.1px;" />
+              <label for="file">upload image
+                <svg width="7" height="16" viewBox="0 0 7 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.89215 6.0209V9.67246C4.89215 10.0356 4.76913 10.3839 4.55015 10.6407C4.33118 10.8975 4.03418 11.0418 3.7245 11.0418C3.41482 11.0418 3.11783 10.8975 2.89885 10.6407C2.67988 10.3839 2.55686 10.0356 2.55686 9.67246L2.55686 3.28223C2.55686 2.67694 2.76189 2.09645 3.12685 1.66845C3.49181 1.24045 3.9868 1 4.50293 1C4.75849 1 5.01155 1.05903 5.24766 1.17372C5.48377 1.28842 5.6983 1.45652 5.87901 1.66845C6.05972 1.88037 6.20307 2.13196 6.30087 2.40886C6.39867 2.68575 6.44901 2.98252 6.44901 3.28223L6.44901 11.4982C6.44901 12.3456 6.16196 13.1583 5.65102 13.7575C5.14007 14.3567 4.44709 14.6934 3.7245 14.6934C3.00192 14.6934 2.30893 14.3567 1.79799 13.7575C1.28705 13.1583 1 12.3456 1 11.4982L1 6.0209"
+                    stroke="#FF0E0E" stroke-width="0.8" stroke-miterlimit="10" />
+                </svg>
+              </label>
+            </div>
+
+            <div>
+              <input type="file" name="file" id="file" class="form__inputfile"
+                data-multiple-caption="{count} files selected" multiple style="width: 0.1px;" />
+              <label for="file">upload image
+                <svg width="7" height="16" viewBox="0 0 7 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.89215 6.0209V9.67246C4.89215 10.0356 4.76913 10.3839 4.55015 10.6407C4.33118 10.8975 4.03418 11.0418 3.7245 11.0418C3.41482 11.0418 3.11783 10.8975 2.89885 10.6407C2.67988 10.3839 2.55686 10.0356 2.55686 9.67246L2.55686 3.28223C2.55686 2.67694 2.76189 2.09645 3.12685 1.66845C3.49181 1.24045 3.9868 1 4.50293 1C4.75849 1 5.01155 1.05903 5.24766 1.17372C5.48377 1.28842 5.6983 1.45652 5.87901 1.66845C6.05972 1.88037 6.20307 2.13196 6.30087 2.40886C6.39867 2.68575 6.44901 2.98252 6.44901 3.28223L6.44901 11.4982C6.44901 12.3456 6.16196 13.1583 5.65102 13.7575C5.14007 14.3567 4.44709 14.6934 3.7245 14.6934C3.00192 14.6934 2.30893 14.3567 1.79799 13.7575C1.28705 13.1583 1 12.3456 1 11.4982L1 6.0209"
+                    stroke="#FF0E0E" stroke-width="0.8" stroke-miterlimit="10" />
+                </svg>
+              </label>
+            </div>
+          </div>
+
+          <a class="btn-contact" href="#"><span>contact us</span> <span>+</span></a>
+        </form>
+
+        <div class="contacts__info contacts-info">
+          <div class="contacts-info__item-block info-item-block">
+            <div class="contacts-info__item contacts-info-item">
+              <h5 class="contacts-info-item__title">opening hours:</h5>
+              <span class="contacts-info-item__text">Mon-Fri: 12am-8pm</span><br>
+              <span class="contacts-info-item__text">Sunday: 12pm-8pm</span>
+            </div>
+
+            <div class="contacts-info__item contacts-info-item">
+              <h5 class="contacts-info-item__title">adress:</h5>
+              <span class="contacts-info-item__text">228 Columbus Ave, San Francisco<br> California, 94133</span>
+            </div>
+
+            <div class="contacts-info__item contacts-info-item">
+              <h5 class="contacts-info-item__title">e-mail:</h5>
+              <span class="contacts-info-item__text">info@dream-masters.com</span>
+            </div>
+
+            <div class="contacts-info__item contacts-info-item">
+              <h5 class="contacts-info-item__title">phone:</h5>
+              <span class="contacts-info-item__text">(415) 277-7204</span>
+            </div>
+
+            <div class="contacts-info__item contacts-info-item">
+              <a href="#" class="contacts-info-item__icon-link">
+                <img src="img/icons/facebook-icon.svg" alt="icon-facebook">
+              </a><a href="" class="contacts-info-item__icon-link">
+                <img src="img/icons/instagram-icon.svg" alt="icon-instagram">
+              </a>
+            </div>
+          </div>
+
+          <div class="info__item map" id="map"></div>
+          <!-- /.info__item map -->
+        </div>
+      </div>
+    </section>
+    <!-- /.contacts -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__navbar navbar">
+        <a href="#" class="footer__nav-link">Home</a>
+        <a href="#" class="footer__nav-link">New! Tattoo supplies</a>
+        <a href="#" class="footer__nav-link">Artists</a>
+        <a href="#" class="footer__nav-link">About us</a>
+        <a href="#" class="footer__nav-link">Services</a>
+        <a href="#" class="footer__nav-link">360 tour</a>
+        <a href="#" class="footer__nav-link">Featured work</a>
+        <a href="#" class="footer__nav-link">Aftercare</a>
+        <a href="#" class="footer__nav-link">FAQ</a>
+        <span href="#" class="menu__nav-link--color-red">Contact
+          <span class="menu__icons footer-menu__icons">
+            <a href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.1406 0.75H2.85938C2.30045 0.751682 1.7649 0.974459 1.36968 1.36968C0.974459 1.7649 0.751682 2.30045 0.75 2.85938V21.1406C0.751682 21.6995 0.974459 22.2351 1.36968 22.6303C1.7649 23.0255 2.30045 23.2483 2.85938 23.25H12.7031V14.1094H10.242V10.5938H12.7031V8.83612C12.7601 6.86512 13.2701 5.11163 16.6121 4.96913H19.383V8.454H17.0404C16.8913 8.44508 16.742 8.46639 16.6014 8.51667C16.4608 8.56695 16.3318 8.64514 16.2222 8.74656C16.1125 8.84797 16.0246 8.97051 15.9635 9.1068C15.9025 9.24309 15.8697 9.39032 15.867 9.53962V10.5938H19.3826L18.7826 14.1094H15.867V23.25H21.1406C21.6995 23.2483 22.2351 23.0255 22.6303 22.6303C23.0255 22.2351 23.2483 21.6995 23.25 21.1406V2.85938C23.2483 2.30045 23.0255 1.7649 22.6303 1.36968C22.2351 0.974459 21.6995 0.751682 21.1406 0.75V0.75Z"
+                  stroke="#FF0E0E" stroke-miterlimit="10" />
+              </svg>
+            </a>
+
+            <a href="#">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.5458 0.75H7.45125C5.67639 0.750492 3.97418 1.45487 2.71793 2.70866C1.46169 3.96244 0.753972 5.66327 0.75 7.43813V16.5131C0.754071 18.2879 1.46183 19.9887 2.71806 21.2424C3.9743 22.4961 5.67646 23.2004 7.45125 23.2009H16.5458C18.3211 23.2012 20.0241 22.4972 21.281 21.2433C22.5379 19.9894 23.246 18.2881 23.25 16.5128V7.43775C23.2459 5.66244 22.5378 3.96125 21.2809 2.70746C20.024 1.45368 18.3211 0.749697 16.5458 0.75Z"
+                  stroke="#FF0E0E" stroke-miterlimit="10" />
+                <path
+                  d="M12 6.16881C10.852 6.17103 9.73051 6.51346 8.77712 7.15284C7.82372 7.79222 7.08124 8.69984 6.64349 9.76104C6.20573 10.8222 6.09235 11.9894 6.31766 13.115C6.54297 14.2406 7.09687 15.2742 7.90937 16.0851C8.72187 16.896 9.75651 17.4479 10.8826 17.671C12.0086 17.8942 13.1755 17.7785 14.2359 17.3387C15.2962 16.8989 16.2024 16.1547 16.8399 15.2001C17.4774 14.2454 17.8177 13.1232 17.8177 11.9753C17.8142 10.4344 17.1998 8.95785 16.1092 7.86935C15.0186 6.78085 13.5408 6.1693 12 6.16881V6.16881ZM12 15.5251C11.2986 15.5235 10.6134 15.3141 10.031 14.9233C9.44861 14.5325 8.9951 13.9779 8.72777 13.3294C8.46045 12.681 8.39131 11.9679 8.5291 11.2802C8.66688 10.5925 9.0054 9.96107 9.50189 9.46568C9.99839 8.97029 10.6306 8.63317 11.3186 8.49691C12.0066 8.36065 12.7195 8.43137 13.3674 8.70013C14.0152 8.96889 14.5688 9.42363 14.9583 10.0069C15.3478 10.5902 15.5557 11.2758 15.5557 11.9772C15.5546 12.9192 15.1794 13.8221 14.5126 14.4875C13.8458 15.1528 12.9419 15.5261 12 15.5251ZM19.2236 6.21231C19.2242 6.48826 19.1429 6.75819 18.99 6.98793C18.8371 7.21767 18.6195 7.39689 18.3647 7.50291C18.11 7.60892 17.8295 7.63697 17.5587 7.5835C17.288 7.53002 17.0392 7.39744 16.8439 7.20252C16.6485 7.00759 16.5154 6.7591 16.4614 6.48849C16.4073 6.21788 16.4347 5.93731 16.5402 5.6823C16.6457 5.42729 16.8244 5.2093 17.0538 5.05593C17.2832 4.90255 17.553 4.82068 17.829 4.82068C18.0119 4.82043 18.1931 4.85624 18.3623 4.92605C18.5314 4.99586 18.6851 5.09831 18.8146 5.22755C18.9441 5.35678 19.0469 5.51027 19.1171 5.67924C19.1872 5.8482 19.2234 6.02934 19.2236 6.21231Z"
+                  stroke="#FF0E0E" stroke-miterlimit="10" />
+              </svg>
+            </a>
+          </span>
+        </span>
+      </nav>
+      <!-- /.footer__navbar navbar -->
+
+      <div class="footer__info footer-info">
+        <div class="footer-info__item">
+          <span>© Dream Masters Custom Tattoos Sweden, est. 2006</span>
+        </div>
+        <div class="footer-info__item">
+          <span>
+            228 Columbus Ave, San Francisco, CA 94133 | (415) 277-7204 | info@dream-masters.com
+          </span>
+        </div>
+        <div class="footer-info__item"></div>
+      </div>
+    </div>
+  </footer>
+  <!-- /.footer -->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/jquery.custom-file-input.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/main.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdYSjj9E05pe0gbASEIJnfV-q_mS7D0Js&callback=initMap">
+  </script>
+
+</body>
+
+</html>
